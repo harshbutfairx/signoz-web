@@ -16,9 +16,10 @@ import Tabs from './Tabs'
 import TabItem from './TabItem'
 import DocCard from './DocCard'
 import DocCardContainer from './DocCardContainer'
+import { ImageViewer } from './ImageViewer/ImageViewer'
 
 export const components: MDXComponents = {
-  Image,
+  Image: ImageViewer,
   TOCInline,
   a: CustomLink,
   pre: Pre,
